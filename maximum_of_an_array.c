@@ -8,11 +8,11 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    int min=a[0];
+    int max=a[0];
     for(i=0;i<n;i++)
     {
-        if(min<a[i])
-        min=a[i];
+        if(max<a[i])
+        max=a[i];
     }
-    printf("%d",min);
+    printf("%d",max);
 }
